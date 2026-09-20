@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="0" y="0" width="1200" height="800" fill="#f2f5f9"/>
+
+  <!-- 负一层外轮廓 -->
+  <rect x="120" y="100" width="960" height="600" fill="#f8fafc" stroke="#475569" stroke-width="3"/>
+
+  <!-- 房间 -->
+  <g fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5">
+    <rect x="150" y="130" width="420" height="330"/>   <!-- 泵房 -->
+    <rect x="610" y="130" width="440" height="330"/>   <!-- 水箱间 -->
+    <rect x="150" y="500" width="420" height="170"/>   <!-- 变电所 -->
+    <rect x="610" y="500" width="440" height="170"/>   <!-- 走道/值班室 -->
+  </g>
+
+  <!-- 门洞 -->
+  <g stroke="#f8fafc" stroke-width="8">
+    <line x1="360" y1="460" x2="510" y2="460"/>
+    <line x1="830" y1="460" x2="950" y2="460"/>
+    <line x1="300" y1="500" x2="420" y2="500"/>
+    <line x1="700" y1="500" x2="820" y2="500"/>
+  </g>
+
+  <!-- 泵房设备示意 -->
+  <g fill="none" stroke="#e6a23c" stroke-width="2">
+    <circle cx="280" cy="250" r="52"/>
+    <circle cx="280" cy="250" r="22"/>
+    <circle cx="430" cy="250" r="52"/>
+    <circle cx="430" cy="250" r="22"/>
+  </g>
+  <!-- 水箱 -->
+  <g fill="#e0f2fe" stroke="#38bdf8" stroke-width="2">
+    <rect x="700" y="180" width="260" height="200"/>
+    <line x1="700" y1="280" x2="960" y2="280" stroke="#38bdf8" stroke-width="1.5" stroke-dasharray="8 6"/>
+  </g>
+
+  <!-- 标注 -->
+  <g fill="#52606d" font-size="24" text-anchor="middle">
+    <text x="360" y="420" font-weight="bold">泵房区</text>
+    <text x="360" y="700" font-weight="bold">变电所</text>
+    <text x="830" y="400" font-weight="bold">水箱间</text>
+    <text x="830" y="600" font-weight="bold">走道 · 值班室</text>
+  </g>
+  <g fill="#64748b" font-size="15" text-anchor="middle">
+    <text x="280" y="330">消防泵</text>
+    <text x="430" y="330">生活泵</text>
+  </g>
+
+  <!-- 指北针 & 比例尺 & 标题 -->
+  <g transform="translate(1140,50)">
+    <circle r="28" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <path d="M0 -20 L6 9 L0 4 L-6 9 Z" fill="#f56c6c"/>
+    <text x="0" y="44" text-anchor="middle" font-size="15" fill="#64748b">N</text>
+  </g>
+  <g transform="translate(40,750)">
+    <rect x="0" y="-7" width="180" height="5" fill="#475569"/>
+    <rect x="0" y="-7" width="90" height="5" fill="#94a3b8"/>
+    <text x="90" y="12" text-anchor="middle" font-size="13" fill="#64748b">0 · 5 · 10m</text>
+  </g>
+  <text x="600" y="60" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">B1 负一层平面图</text>
+</svg>

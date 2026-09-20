@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" font-family="'PingFang SC','Microsoft YaHei',sans-serif">
+  <rect x="0" y="0" width="1200" height="800" fill="#f2f5f9"/>
+
+  <!-- 一层外轮廓 -->
+  <rect x="120" y="100" width="960" height="600" fill="#f8fafc" stroke="#475569" stroke-width="3"/>
+
+  <!-- 主通道 -->
+  <rect x="120" y="380" width="960" height="130" fill="#eef2f7" stroke="#94a3b8" stroke-width="1.5"/>
+
+  <!-- 房间 -->
+  <g fill="#f8fafc" stroke="#94a3b8" stroke-width="1.5">
+    <rect x="150" y="130" width="380" height="220"/>
+    <rect x="570" y="130" width="230" height="220"/>
+    <rect x="840" y="130" width="210" height="220"/>
+    <rect x="150" y="540" width="900" height="130"/>
+  </g>
+
+  <!-- 门洞 -->
+  <g stroke="#f8fafc" stroke-width="8">
+    <line x1="340" y1="350" x2="470" y2="350"/>
+    <line x1="680" y1="350" x2="800" y2="350"/>
+    <line x1="950" y1="350" x2="1020" y2="350"/>
+    <line x1="600" y1="540" x2="760" y2="540"/>
+  </g>
+
+  <!-- 楼梯间 -->
+  <g stroke="#94a3b8" stroke-width="1.5" fill="#fbfcfe">
+    <rect x="1050" y="100" width="30" height="280" fill="none" stroke="none"/>
+  </g>
+  <g transform="translate(930,180)">
+    <line x1="0" y1="0" x2="0" y2="120" stroke="#94a3b8" stroke-width="2"/>
+    <g stroke="#64748b" stroke-width="2">
+      <line x1="0" y1="0" x2="80" y2="0"/>
+      <line x1="0" y1="30" x2="80" y2="30"/>
+      <line x1="0" y1="60" x2="80" y2="60"/>
+      <line x1="0" y1="90" x2="80" y2="90"/>
+      <line x1="0" y1="120" x2="80" y2="120"/>
+    </g>
+    <line x1="80" y1="0" x2="80" y2="120" stroke="#94a3b8" stroke-width="2"/>
+  </g>
+
+  <!-- 窗户 -->
+  <g stroke="#38bdf8" stroke-width="4" fill="none">
+    <line x1="250" y1="100" x2="400" y2="100"/>
+    <line x1="610" y1="100" x2="740" y2="100"/>
+    <line x1="880" y1="100" x2="1000" y2="100"/>
+  </g>
+
+  <!-- 标注 -->
+  <g fill="#52606d" font-size="24" text-anchor="middle">
+    <text x="340" y="255">房间 A · 材料库房</text>
+    <text x="685" y="255">房间 B · 工具间</text>
+    <text x="945" y="255">房间 C · 配电间</text>
+    <text x="600" y="450" font-weight="bold">主通道（施工通道）</text>
+    <text x="600" y="612">作业平台</text>
+    <text x="970" y="250" font-size="18">楼梯间</text>
+  </g>
+
+  <!-- 指北针 & 比例尺 & 标题 -->
+  <g transform="translate(1140,50)">
+    <circle r="28" fill="none" stroke="#94a3b8" stroke-width="1.5"/>
+    <path d="M0 -20 L6 9 L0 4 L-6 9 Z" fill="#f56c6c"/>
+    <text x="0" y="44" text-anchor="middle" font-size="15" fill="#64748b">N</text>
+  </g>
+  <g transform="translate(40,750)">
+    <rect x="0" y="-7" width="180" height="5" fill="#475569"/>
+    <rect x="0" y="-7" width="90" height="5" fill="#94a3b8"/>
+    <text x="90" y="12" text-anchor="middle" font-size="13" fill="#64748b">0 · 5 · 10m</text>
+  </g>
+  <text x="600" y="60" text-anchor="middle" font-size="22" font-weight="bold" fill="#334155">1/F 一层平面图</text>
+</svg>
